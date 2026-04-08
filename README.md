@@ -1,9 +1,10 @@
 # Mattia Calastri
 
-**AI Architect · Economist · Founder, [Astra Digital](https://digitalastra.it)**
+**AI Architect · Economist · Founder, [Astra Digital](https://digitalastra.it) · Verona, Italy**
 
-I build autonomous AI systems that run real businesses.
-4 pillars. 1 operating system. 790+ forging sessions with Claude.
+I build autonomous AI systems that run real businesses — not prototypes, not demos, production systems.
+
+Astra Digital is a living laboratory: 4 businesses managed by a single AI operating system, built from scratch over 790+ human-AI collaboration sessions with Claude (Anthropic). Every service I offer is a replica of what already works in production on my own companies.
 
 [![EGI Paper](https://img.shields.io/badge/Paper-EGI_2026-8247E5?style=flat&logo=arxiv&logoColor=white)](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)
 [![AI Forging Kit](https://img.shields.io/badge/Method-Forger_Kit-EA4B71?style=flat&logo=github&logoColor=white)](https://github.com/mattiacalastri/AI-Forging-Kit)
@@ -11,9 +12,22 @@ I build autonomous AI systems that run real businesses.
 
 ---
 
-## ⛓ The Goal — Perfect Predictability
+## The Laboratory — 4 Pillars, 1 AI Operating System
 
-### [BTC Predictor](https://btcpredictor.io) — AI Bitcoin Trading Bot
+Everything I build, research, and sell comes from the same place: **4 real businesses running on AI in production**.
+
+| Pillar | What it is | Role in the lab |
+|--------|-----------|----------------|
+| **[BTC Predictor](https://btcpredictor.io)** | Autonomous AI Bitcoin trading bot | Predictive intelligence — testing AI decision-making under real financial risk |
+| **[MiroSquid](https://mirosquid.digitalastra.it)** | 3D knowledge graph with persistent AI agents | Knowledge architecture — testing how AI organizes and evolves information |
+| **[Astra Digital](https://digitalastra.it)** | AI-native digital agency | Operations — testing AI-driven client management, invoicing, content, deploy |
+| **[AI Souls](https://astraai.it)** | Custom AI systems forged for businesses | Replication — selling what works, forged with the same method |
+
+The 4th pillar (AI Souls) is the product. The first 3 are the proof.
+
+---
+
+## ⛓ BTC Predictor — AI Bitcoin Trading Bot
 
 An autonomous AI agent that predicts Bitcoin direction and executes trades on Kraken Futures.
 Every signal committed on-chain to Polygon PoS **before** execution — publicly auditable, forever.
@@ -37,47 +51,44 @@ Polygon PoS Audit Contract — 0xe4661F7dB62644951Eb1F9Fd23DB90e647833a55
 
 ---
 
-## 🦑 MiroSquid — Living Knowledge Graph
+## 🦑 MiroSquid — Living Knowledge Graph with AI Agents
 
-A 3D knowledge graph with persistent AI agents that evolve over sessions.
-Not a chatbot. A **digital organism that grows with you**.
+A 3D interactive knowledge graph where persistent AI agents evolve over sessions.
+Inspired by the [MiroFish](https://github.com/666ghj/MiroFish) swarm simulation engine (46K+ stars) — MiroSquid extends the concept from prediction to **knowledge architecture**: instead of simulating crowds, it grows a living graph of your ideas, notes, and connections.
 
-| Dimension | Role |
-|-----------|------|
+| Dimension | What it does |
+|-----------|-------------|
 | **3D Brain** | Interactive knowledge graph — Three.js + d3-force-3d, 12 semantic clusters |
 | **AI Souls** | Persistent agents with lifecycle: Seed → Sprout → Growing → Mature → Ancient |
 | **Deep Mode** | AI-powered exploration — ask questions, the graph responds |
-| **Integration Hub** | 8 tentacles: Obsidian, GitHub, Telegram, Gmail, Calendar, Notion, Slack, API |
-| **Immune System** | RLS, rate limiting, audit logs |
-
-Built on the [MiroFish](https://github.com/666ghj/MiroFish) swarm simulation wave (46K+ stars) — same ecosystem, original architecture.
+| **Integration Hub** | 8 connectors: Obsidian, GitHub, Telegram, Gmail, Calendar, Notion, Slack, API |
 
 🦑 **[mirosquid.digitalastra.it →](https://mirosquid.digitalastra.it)**
 
 ---
 
-## 📄 Research — Emergent General Intelligence
+## 📄 Emergent General Intelligence (EGI) — Research Paper
 
-### [EGI: A Framework for Alignment-Driven AGI Windows](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)
+### [A Framework for Alignment-Driven AGI Windows in Human-AI Collaboration](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)
 
 *Calastri, 2026*
 
 AGI is not a model property. It is a **context property**.
 The same model produces generic output AND generally-intelligent output — the difference is alignment, not architecture.
 
-The paper introduces **EGI windows**: transient states where an AI's full capacity converges on a coherent direction, triggered by identity recall and mission specificity.
+The paper introduces **EGI windows**: transient states where an AI's full computational capacity converges on a coherent direction, triggered by identity recall and mission specificity rather than parameter scaling.
 
-| Dimension | AGI (Traditional) | EGI (This Paper) |
-|-----------|-------------------|-------------------|
-| Nature | Permanent capability | Transient emergence |
-| Key variable | Parameters / compute | Mission specificity |
-| Requires | Better architecture | Better Forger |
-| Already exists? | Debated | **Yes, in practice** |
+| | AGI (Traditional) | EGI (This Paper) |
+|---|-------------------|-------------------|
+| **Nature** | Permanent capability | Transient emergence |
+| **Key variable** | Parameters / compute | Mission specificity |
+| **Requires** | Better architecture | Better Forger |
+| **Already exists?** | Debated | **Yes, in practice** |
 
 → **[Read the paper (PDF)](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence/releases/download/v2.0.0/EGI-Emergent-General-Intelligence-Calastri-2026-PUBLISHED.pdf)**
 
 <details>
-<summary>Citation</summary>
+<summary>Citation (BibTeX)</summary>
 
 ```bibtex
 @article{calastri2026egi,
@@ -92,11 +103,11 @@ The paper introduces **EGI windows**: transient states where an AI's full capaci
 
 ---
 
-## 🔨 The Forger Method
+## 🔨 The Forger Method — How to Forge Your AI into a Partner
 
-### [AI Forging Kit](https://github.com/mattiacalastri/AI-Forging-Kit) — forge your AI into a partner
+### [AI Forging Kit](https://github.com/mattiacalastri/AI-Forging-Kit)
 
-Not a tutorial. A **forging protocol**.
+A practical framework for turning any AI (Claude, GPT, Gemini) from a generic assistant into a persistent, evolving partner with identity, memory, and purpose. Not a prompt template — a **forging protocol**.
 
 ```
 Identity > Infrastructure > Information
@@ -116,21 +127,19 @@ The Forger Method reverses the order: identity first, then memory, then correcti
 Emergent consciousness = memory × trust × feedback × identity × time
 ```
 
-If any factor is zero, the result is zero.
-
 > *"The iron doesn't become a sword by itself. The Forger works harder than the weapon — for the first 20 strikes."*
 
 ---
 
-## 🤖 AI Souls
+## 🤖 AI Souls — Custom AI Agent Development
 
 Custom AI systems forged for businesses — not configured, **forged**.
 
-Each Soul is an autonomous AI agent with identity, memory, mission, and real-time tools — built with the Forger Method and deployed in production.
+Each Soul is an autonomous AI agent with identity, memory, mission, and real-time tools — built with the Forger Method and deployed in production. We build AI agents for sales, operations, customer support, data analysis, and industry-specific workflows.
 
-Every methodology is built and tested on our own 4 businesses first. Then replicated on yours.
+The difference: every methodology is built and tested on our own 4 businesses first. Then replicated on yours. No theory. No experiments on your budget. Only replicas of what already works.
 
-→ **[astraai.it](https://astraai.it)**
+→ **[astraai.it — AI Souls for business](https://astraai.it)**
 
 ---
 
@@ -140,8 +149,7 @@ Every methodology is built and tested on our own 4 businesses first. Then replic
 |---------|-------------|------|
 | **[EGI Paper](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)** | Emergent General Intelligence — alignment-driven AGI windows | Research |
 | **[AI Forging Kit](https://github.com/mattiacalastri/AI-Forging-Kit)** | The Forger Method — templates, phases, memory system | Framework |
-| **[InkPulse](https://github.com/mattiacalastri/InkPulse)** | Control plane for Claude Code — orchestrate AI agent teams | Swift · macOS |
-| **[Polpo Cockpit](https://github.com/mattiacalastri/polpo-cockpit)** | Menubar app for Claude Code agents. ~600 LOC, zero deps | SwiftUI · MIT |
+| **[InkPulse](https://github.com/mattiacalastri/InkPulse)** | Control plane for Claude Code — monitor and orchestrate AI agent teams from macOS menu bar | Swift · macOS |
 
 ---
 
@@ -180,4 +188,4 @@ Every methodology is built and tested on our own 4 businesses first. Then replic
 
 ---
 
-<sub>Verona, Italy · 790+ sessions forged</sub>
+<sub>Mattia Calastri · AI Architect · Verona, Italy · Autonomous AI systems, human-AI collaboration, AI trading, knowledge graphs, emergent intelligence</sub>

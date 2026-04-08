@@ -4,7 +4,7 @@
 
 I build autonomous AI systems that run real businesses — not prototypes, not demos, production systems.
 
-Astra Digital is a living laboratory: 4 businesses managed by a single AI operating system, built from scratch over 790+ human-AI collaboration sessions with Claude (Anthropic). Every service I offer is a replica of what already works in production on my own companies.
+Astra Digital is a living laboratory: 4 businesses managed by a single AI operating system, built from scratch over 800+ human-AI collaboration sessions with Claude (Anthropic). Every service I offer is a replica of what already works in production on my own companies.
 
 [![EGI Paper](https://img.shields.io/badge/Paper-EGI_2026-8247E5?style=flat&logo=arxiv&logoColor=white)](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)
 [![AI Forging Kit](https://img.shields.io/badge/Method-Forger_Kit-EA4B71?style=flat&logo=github&logoColor=white)](https://github.com/mattiacalastri/AI-Forging-Kit)

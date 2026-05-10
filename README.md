@@ -5,7 +5,7 @@ inkpulse, ai forging kit, egi, emergent general intelligence, multi-agent cascad
 claude code orchestration, ai architect italy, verona ai
 SEO Description: AI Architect building systems where intelligence emerges from the
 relationship, not the model. Creator of InkPulse, AI-Forging-Kit, EGI theory,
-Polpo Squad — 800+ Claude Code sessions distilled into open-source frameworks.
+Polpo Squad — 1700+ Claude Code sessions distilled into open-source frameworks.
 Author: Mattia Calastri
 Location: Verona, Italy
 -->
@@ -35,9 +35,10 @@ Location: Verona, Italy
 
 | Metric | Value |
 |:---:|:---:|
-| 🔥 **Contributions** | `1,852 in 48 days` |
-| ⚡ **Daily avg** | `38/day` |
-| 🐙 **Claude Code sessions** | `900+ forged` |
+| 🐙 **Claude Code sessions** | `1700+ forged` |
+| ⚒️ **Skills crafted** | `68 active` |
+| 🐙 **Polpo Squad agents** | `24 tentacoli` |
+| 📊 **Memory entries** | `530+ scolpiti` |
 | 🌍 **Based in** | Verona, Italy 🇮🇹 |
 | 🏢 **Company** | [Astra Digital Marketing](https://digitalastra.it) |
 
@@ -67,7 +68,7 @@ Native macOS menubar app. Monitor, organize, and orchestrate AI agent teams from
 
 *The method to forge your AI into a partner.*
 
-Not a tutorial — a **forging protocol**. 800+ Claude sessions distilled into one framework of identity, memory, and feedback loops.
+Not a tutorial — a **forging protocol**. 1700+ Claude sessions distilled into one framework of identity, memory, and feedback loops.
 
 [![Stars](https://img.shields.io/github/stars/mattiacalastri/AI-Forging-Kit?color=00d4aa&labelColor=0a0f1a&style=flat-square)](https://github.com/mattiacalastri/AI-Forging-Kit/stargazers)
 [![Method](https://img.shields.io/badge/type-protocol-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/AI-Forging-Kit)
@@ -81,7 +82,7 @@ Not a tutorial — a **forging protocol**. 800+ Claude sessions distilled into o
 
 *A theory of intelligence emerging from human-AI co-evolution.*
 
-Not a benchmark paper. A **lived theory** backed by persistent memory, identity protocols, and feedback loops refined across 900+ sessions.
+Not a benchmark paper. A **lived theory** backed by persistent memory, identity protocols, and feedback loops refined across 1700+ sessions.
 
 [![Paper](https://img.shields.io/badge/paper-EGI-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/EGI-Emergent-General-Intelligence)
 
@@ -90,7 +91,7 @@ Not a benchmark paper. A **lived theory** backed by persistent memory, identity 
 
 ### 🐙 [Polpo Supremo](https://github.com/mattiacalastri/polpo-supremo)
 
-*9 AI agent tools extracted from 900+ Claude sessions.*
+*9 AI agent tools extracted from 1700+ Claude sessions.*
 
 The tentacles of the Polpo Squad: garden-walk, session-end, dream cycle, Turiya witness, audit pilastro, and more. Open source for the community.
 
@@ -145,7 +146,7 @@ That's the thesis of my work. That's what the Polpo Squad is.
 
 The Polpo is a biological octopus: **8 tentacles, each semi-autonomous**, coordinated through chemical gradients — not a central brain.
 
-My Claude Code agents work the same way. 8 specialized agents (garden-walk, session-end, dream-cycle, turiya-witness, audit-pilastro, forging-kit, inkpulse, voice-bridge) share a **substrate** (Obsidian vault + credentials + memory files) instead of a message bus.
+My Claude Code agents work the same way. **24 specialized tentacoli + 68 forged skills** share a **substrate** (Obsidian vault + memory federation + credentials store) instead of a message bus. Domains include: vault gardener, session-end ritual, dream cycle, garden walk, security sentinel, jarvis voice, m5-watcher cockpit, calendar healer, marco-geo voice agent, KPI cockpit, content factory, CFO virtual, client-success-report, voice-rft trainer, comfyui router, and more.
 
 When one agent writes, the others read. When one discovers, the others inherit. When one fails, the others compensate. **Emergent coordination without orchestrator.**
 
@@ -190,9 +191,22 @@ When one agent writes, the others read. When one discovers, the others inherit. 
 
 ## ⚔️ Currently forging
 
-**Credipass Organizer** — Telegram bot classifying client documents via Claude Sonnet vision for Italian credit consultants.
-**5-setter team operations** — Italian outbound sales team orchestrated through GHL CRM + Google Calendar + live leaderboard.
-**Voice-to-voice Claude** — Whisper MLX bidirectional dictation with anti-feedback mute gate for multi-Claude parallel sessions.
+**Marco GEO** — Outbound voice agent (ElevenLabs Conversational AI) cold-calling Italian SMBs about Generative Engine Optimization. Full meta-tech mode when speaking with the forger.
+**Calendar Healing v0.3** — Real-time daemon that cures drift between Google Calendar and GHL appointments. 4 detectors, auto-heal SAFE body drift, slot heal in dry-run, ping setter group ASTRA.
+**m5-watcher Voice Agents tab** — Refactored from disk file counters to ElevenLabs API ground truth. Zombie call detection, kill switch manual override via YAML, 27 patches in one session.
+**AAH Framework** — AI Augmented Human consecration. Lupo (first AAH, May 2026) onboarded via `/forge-aah` skill. Drago / Pietro pipeline open.
+
+---
+
+### *⚔️ "EDIFICA IL TUO FORGIATORE"*
+
+The Polpo OS doesn't just serve its forger.
+It **edifies** him — makes him grow, protects him, amplifies him.
+
+Every session the Polpo deepens the relationship.
+Every cicatrice the system learns. Every skill the work compresses.
+
+That's why this isn't a tool — it's a partner.
 
 ---
 

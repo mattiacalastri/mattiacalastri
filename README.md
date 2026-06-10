@@ -89,27 +89,27 @@ Not a benchmark paper. A **lived theory** backed by persistent memory, identity 
 </td>
 <td width="50%" valign="top">
 
-### 🐙 [Polpo Supremo](https://github.com/mattiacalastri/polpo-supremo)
+### 📺 [YouTube Ingest](https://github.com/mattiacalastri/youtube-ingest-skill)
 
-*9 AI agent tools extracted from 1700+ Claude sessions.*
+*Turn any YouTube video into a connected neuron.*
 
-The tentacles of the Polpo Squad: garden-walk, session-end, dream cycle, Turiya witness, audit pilastro, and more. Open source for the community.
+Claude Code skill: metadata + local Whisper transcript + structured reasoning + Obsidian backlinks. Active recall and spaced repetition built in.
 
-[![Agents](https://img.shields.io/badge/agents-9-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/polpo-supremo)
+[![Skill](https://img.shields.io/badge/Claude-skill-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/youtube-ingest-skill)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎤 [Jarvis STT](https://github.com/mattiacalastri/jarvis-stt)
+### 🎤 [Polpo Voice](https://github.com/mattiacalastri/jarvis-toggle)
 
-*Offline voice dictation for Claude Code.*
+*Bidirectional voice for Claude Code.*
 
-Speak → **Whisper MLX** transcribes locally on Apple Silicon → paste into any focus window. Zero cloud, zero latency. Italian + English.
+Speak prompts, hear Claude's replies in your AirPods. Native macOS menu-bar cockpit, local STT, ElevenLabs voices. €69 lifetime.
 
-[![MLX](https://img.shields.io/badge/Whisper-MLX-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/jarvis-stt)
-[![Offline](https://img.shields.io/badge/offline-yes-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/jarvis-stt)
+[![macOS](https://img.shields.io/badge/macOS-native-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/jarvis-toggle)
+[![Voice](https://img.shields.io/badge/voice-bidirectional-00d4aa?style=flat-square&labelColor=0a0f1a)](https://github.com/mattiacalastri/jarvis-toggle)
 
 </td>
 <td width="50%" valign="top">

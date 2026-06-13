@@ -1,0 +1,758 @@
+<link rel='preconnect' href='https://fonts.googleapis.com'><link href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap' rel='stylesheet'>
+<style>
+*, *::before, *::after{margin:0;padding:0;box-sizing:border-box;}html, body, #page, #content, .site, .site-content, .ast-container, .content-area, #primary, #main, .entry-content, .post-content, .page-content{background:var(--void) !important;color:var(--text) !important;max-width:100% !important;width:100% !important;padding:0 !important;margin:0 auto !important;overflow-x:hidden !important;}.entry-title, h1.entry-title, .page-title, .ast-archive-description, .entry-header, .page-header, .ast-page-header-section, header.entry-header, .breadcrumb, .rank-math-breadcrumb{display:none !important;}article, article.post, article.page, .ast-separate-container .ast-article-single, .ast-separate-container .ast-article-post, .ast-separate-container article, .ast-separate-container .content-area{background:transparent !important;padding:0 !important;margin:0 !important;border:none !important;box-shadow:none !important;}.hero, .trust, .statement, .divider, .svc, .results, .test-section, .about, .ecosystem, .faq-section, .cta{width:100vw !important;position:relative !important;left:50% !important;margin-left:-50vw !important;}:root{--void:#05050b;--deep:#0a0a12;--surface:#0f0f18;--elevated:#16161f;--accent:#00d4aa;--accent-light:#00e6b8;--accent-glow:rgba(0,212,170,0.15);--warm:#f59e0b;--warm-soft:#fbbf24;--text:#e4e4e7;--muted:#a1a1aa;--dim:#71717a;--faint:#3f3f46;--border:rgba(255,255,255,0.05);--display:'Syne', sans-serif;--body:'Inter', -apple-system, BlinkMacSystemFont, sans-serif;}::selection{background:var(--accent);color:white;}body{font-family:var(--body);background:var(--void);color:var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.6;}.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr 0.9fr;align-items:center;padding:0 64px;gap:40px;position:relative;overflow:hidden;}.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 50% at 25% 50%, rgba(0,212,170,0.08) 0%, transparent 70%), radial-gradient(ellipse 40% 40% at 75% 60%, rgba(245,158,11,0.04) 0%, transparent 60%);}.hero-text{position:relative;z-index:2;}.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:0.7rem;font-weight:500;text-transform:uppercase;letter-spacing:4px;color:var(--accent-light);margin-bottom:32px;padding:6px 14px;border-radius:50px;background:rgba(0,212,170,0.08);border:1px solid rgba(0,212,170,0.12);}.hero-eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);}.hero h1{font-family:var(--display);font-size:clamp(2.8rem, 5vw, 4.2rem);font-weight:800;line-height:1.02;margin-bottom:28px;letter-spacing:-0.02em;}.hero h1 .gradient{background:linear-gradient(135deg, var(--accent-light), var(--warm-soft));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}.hero-desc{font-size:1.12rem;font-weight:300;color:var(--muted);line-height:1.8;max-width:440px;margin-bottom:40px;}.hero-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;}.btn-primary{display:inline-flex;align-items:center;gap:10px;font-family:var(--body);font-size:0.88rem;font-weight:500;color:white;text-decoration:none;padding:15px 32px;border-radius:50px;background:linear-gradient(135deg, var(--accent), #00b894);box-shadow:0 0 0 1px rgba(0,212,170,0.25), 0 12px 40px rgba(0,212,170,0.2);transition:all 0.4s cubic-bezier(0.16,1,0.3,1);}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(0,212,170,0.4), 0 20px 50px rgba(0,212,170,0.3);}.btn-primary svg{width:16px;height:16px;transition:transform 0.3s;}.btn-primary:hover svg{transform:translateX(3px);}.btn-ghost{font-family:var(--body);font-size:0.88rem;font-weight:400;color:var(--muted);text-decoration:none;border-bottom:1px solid var(--faint);padding-bottom:2px;transition:all 0.3s;}.btn-ghost:hover{color:white;border-color:white;}.hero-photo{position:relative;z-index:2;display:flex;justify-content:flex-end;}.hero-photo-wrap{position:relative;width:480px;max-width:100%;}.hero-photo-wrap img{width:100%;display:block;position:relative;z-index:1;mask-image:linear-gradient(to bottom, black 0%, black 65%, transparent 100%);-webkit-mask-image:linear-gradient(to bottom, black 0%, black 65%, transparent 100%);}.hero-photo-wrap::before{content:'';position:absolute;top:15%;left:50%;transform:translateX(-50%);width:340px;height:340px;border-radius:50%;background:radial-gradient(circle, rgba(0,212,170,0.15), transparent 70%);z-index:0;}.trust{padding:28px 64px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--deep);display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap;}.trust-item{font-size:0.72rem;font-weight:500;text-transform:uppercase;letter-spacing:2px;color:var(--dim);display:flex;align-items:center;gap:8px;}.trust-item svg{width:18px;height:18px;opacity:0.5;}.trust-item strong{color:var(--muted);font-weight:600;}.statement{padding:120px 64px;text-align:center;position:relative;overflow:hidden;}.statement::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:300px;border-radius:50%;background:radial-gradient(ellipse, rgba(0,212,170,0.04), transparent 70%);}.statement h2{font-family:var(--display);font-size:clamp(1.8rem, 4vw, 3.2rem);font-weight:800;color:white;line-height:1.2;max-width:720px;margin:0 auto 24px;letter-spacing:-0.01em;position:relative;}.statement h2 .gradient{background:linear-gradient(135deg, var(--accent-light), var(--warm-soft));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}.statement p{font-size:1.08rem;color:var(--muted);font-weight:300;max-width:480px;margin:0 auto;line-height:1.8;position:relative;}.services{padding:0;}.svc{display:grid;grid-template-columns:1fr 1fr;min-height:400px;position:relative;}.svc:nth-child(even) .svc-text{order:2;}.svc:nth-child(even) .svc-vis{order:1;}.svc:nth-child(odd){background:var(--surface);}.svc:nth-child(even){background:var(--deep);}.svc-text{padding:64px;display:flex;flex-direction:column;justify-content:center;}.svc-label{font-size:0.6rem;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:var(--dim);margin-bottom:16px;}.svc-text h3{font-family:var(--display);font-size:clamp(1.5rem, 2.5vw, 2rem);font-weight:800;color:white;margin-bottom:16px;letter-spacing:-0.01em;}.svc-text p{font-size:1rem;color:var(--muted);line-height:1.8;font-weight:300;max-width:400px;}.svc-vis{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}.svc-vis::before{content:'';position:absolute;inset:0;}.svc:nth-child(1) .svc-vis::before{background:radial-gradient(circle at 50% 50%, rgba(0,212,170,0.06), transparent 60%);}.svc:nth-child(2) .svc-vis::before{background:radial-gradient(circle at 50% 50%, rgba(245,158,11,0.05), transparent 60%);}.svc:nth-child(3) .svc-vis::before{background:radial-gradient(circle at 50% 50%, rgba(99,102,241,0.05), transparent 60%);}.svc-icon{position:relative;width:120px;height:120px;display:flex;align-items:center;justify-content:center;border-radius:28px;background:rgba(0,212,170,0.06);border:1px solid rgba(0,212,170,0.1);}.svc-icon svg{width:52px;height:52px;stroke:var(--accent-light);stroke-width:1.5;fill:none;}.svc-icon::before{content:'';position:absolute;inset:-30px;border-radius:50%;background:radial-gradient(circle, var(--accent-glow), transparent 70%);}.svc-num{position:absolute;top:40px;right:48px;font-family:var(--display);font-size:6rem;font-weight:800;line-height:1;color:rgba(255,255,255,0.02);}.svc{align-items:center;}.svc-vis&gt;p,.svc&gt;p{display:contents;margin:0;padding:0;}.svc-text&gt;p:first-child{display:contents;}.results{padding:100px 64px;}.results-head{text-align:center;margin-bottom:56px;}.results-head h2{font-family:var(--display);font-size:clamp(1.8rem, 3vw, 2.6rem);font-weight:800;color:white;margin-bottom:10px;}.results-head p{font-size:0.95rem;color:var(--dim);font-weight:300;}.case-feat{display:grid;grid-template-columns:200px 1fr;gap:48px;align-items:center;padding:48px 56px;border-radius:24px;margin-bottom:20px;background:linear-gradient(135deg, var(--surface), var(--elevated));border:1px solid rgba(255,255,255,0.06);position:relative;overflow:hidden;transition:border-color 0.4s;}.case-feat:hover{border-color:rgba(0,212,170,0.15);}.case-feat::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg, var(--accent), var(--warm));border-radius:3px;}.case-metric{text-align:center;position:relative;}.case-metric-val{font-family:var(--display);font-size:4.5rem;font-weight:800;color:var(--warm);line-height:1;text-shadow:0 0 80px rgba(245,158,11,0.2);}.case-metric-label{font-size:0.65rem;color:var(--dim);text-transform:uppercase;letter-spacing:2px;font-weight:500;margin-top:4px;}.case-body{position:relative;}.case-tag{font-size:0.6rem;text-transform:uppercase;letter-spacing:2px;color:var(--accent-light);font-weight:600;margin-bottom:10px;display:block;}.case-body h3{font-family:var(--display);font-size:1.25rem;font-weight:700;color:white;margin-bottom:10px;}.case-body p{font-size:0.95rem;color:var(--muted);line-height:1.75;font-weight:300;}.cases-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:16px;}.case-compact{padding:32px 28px;border-radius:16px;background:var(--surface);border:1px solid var(--border);transition:all 0.4s cubic-bezier(0.16,1,0.3,1);position:relative;}.case-compact:hover{border-color:rgba(0,212,170,0.15);transform:translateY(-3px);}.case-compact .case-tag{margin-bottom:16px;}.case-compact-val{font-family:var(--display);font-size:2.2rem;font-weight:800;color:var(--warm);line-height:1;margin-bottom:8px;}.case-compact p{font-size:0.85rem;color:var(--muted);line-height:1.65;font-weight:300;}.about{display:grid;grid-template-columns:0.8fr 1.2fr;gap:72px;align-items:center;padding:100px 64px;position:relative;}.about::before{content:'';position:absolute;left:-100px;top:50%;transform:translateY(-50%);width:400px;height:400px;border-radius:50%;background:radial-gradient(circle, rgba(0,212,170,0.04), transparent 70%);}.about-photo{position:relative;z-index:2;}.about-photo img{width:380px;max-width:100%;display:block;mask-image:none;-webkit-mask-image:none;}.about-text{position:relative;z-index:2;}.about-text h2{font-family:var(--display);font-size:clamp(1.5rem, 2.5vw, 2rem);font-weight:800;color:white;margin-bottom:20px;}.about-text p{font-size:1.05rem;font-weight:300;color:var(--muted);line-height:1.85;margin-bottom:16px;}.about-text p strong{color:var(--text);font-weight:500;}.about-text .link{color:var(--accent-light);text-decoration:none;font-weight:500;border-bottom:1px solid rgba(0,230,184,0.3);transition:all 0.3s;}.about-text .link:hover{color:white;border-color:white;}.ecosystem{padding:80px 64px;background:var(--deep);}.eco-head{text-align:center;margin-bottom:48px;}.eco-head h2{font-family:var(--display);font-size:clamp(1.5rem, 2.5vw, 2rem);font-weight:800;color:white;margin-bottom:10px;}.eco-head p{font-size:0.95rem;color:var(--dim);font-weight:300;}.eco-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:20px;max-width:960px;margin:0 auto;}.eco-card{padding:32px 28px;border-radius:20px;background:var(--surface);border:1px solid rgba(255,255,255,0.06);transition:all 0.4s cubic-bezier(0.16,1,0.3,1);text-decoration:none;display:block;}.eco-card:hover{border-color:rgba(0,212,170,0.2);transform:translateY(-3px);}.eco-badge{display:inline-block;font-size:0.55rem;font-weight:600;text-transform:uppercase;letter-spacing:2px;padding:4px 10px;border-radius:50px;margin-bottom:16px;}.eco-badge.live{background:rgba(16,185,129,0.1);color:#10b981;border:1px solid rgba(16,185,129,0.2);}.eco-badge.soon{background:rgba(245,158,11,0.1);color:var(--warm);border:1px solid rgba(245,158,11,0.2);}.eco-card h3{font-family:var(--display);font-size:1.1rem;font-weight:700;color:white;margin-bottom:8px;}.eco-card p{font-size:0.85rem;color:var(--muted);line-height:1.65;font-weight:300;}.eco-card .eco-link{display:inline-block;margin-top:12px;font-size:0.78rem;font-weight:500;color:var(--accent-light);text-decoration:none;}.cta{padding:120px 64px;text-align:center;background:var(--surface);position:relative;}.cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 40% 60% at 50% 100%, rgba(0,212,170,0.08), transparent 60%), radial-gradient(ellipse 60% 30% at 50% 0%, rgba(245,158,11,0.03), transparent 50%);}.cta h2{font-family:var(--display);font-size:clamp(1.6rem, 3vw, 2.4rem);font-weight:800;color:white;margin-bottom:16px;line-height:1.25;max-width:560px;margin-left:auto;margin-right:auto;position:relative;}.cta &gt; p{font-size:1rem;color:var(--muted);font-weight:300;margin-bottom:40px;position:relative;}.cta .btn-primary{position:relative;}.cta-sub{font-size:0.75rem;color:var(--dim);margin-top:24px;position:relative;}.cta-donate{margin-top:48px;padding-top:32px;border-top:1px solid var(--border);position:relative;}.cta-donate p{font-size:0.78rem;color:var(--dim);font-weight:300;margin-bottom:8px;}.cta-donate code{font-size:0.7rem;color:var(--muted);background:var(--deep);padding:6px 14px;border-radius:8px;border:1px solid var(--border);display:inline-block;font-family:monospace;letter-spacing:0.5px;word-break:break-all;}.divider{height:1px;background:linear-gradient(90deg, transparent, var(--border), rgba(0,212,170,0.08), var(--border), transparent);}@media (max-width:900px){.hero{grid-template-columns:1fr;text-align:center;padding:80px 24px;min-height:auto;gap:32px;}.hero-photo{justify-content:center;order:-1;}.hero-photo-wrap{width:320px;}.hero-desc{max-width:100%;}.hero-actions{justify-content:center;}.trust{padding:20px 24px;gap:16px;overflow-x:auto;justify-content:flex-start;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;max-width:100vw;}.trust-item{flex-shrink:0;font-size:0.65rem;}.statement{padding:80px 24px;}.svc{grid-template-columns:1fr;min-height:auto;}.svc:nth-child(even) .svc-text{order:1;}.svc:nth-child(even) .svc-vis{order:2;}.svc-text{padding:48px 24px;}.svc-vis{min-height:160px;}.svc-num{display:none;}.results{padding:60px 24px;}.case-feat{grid-template-columns:1fr;text-align:center;padding:32px 24px;}.cases-grid{grid-template-columns:1fr;}.about{grid-template-columns:1fr;text-align:center;padding:60px 24px;gap:40px;}.about-photo{display:flex;justify-content:center;}.about-photo img{width:240px;}.ecosystem{padding:60px 24px;}.eco-grid{grid-template-columns:1fr;}.cta{padding:80px 24px;}.test-section{padding:60px 24px;}.test-grid{grid-template-columns:1fr;gap:14px;}.faq-section{padding:60px 24px;}}.entry-title, h1.entry-title, .page-title{display:none !important;}
+.svc-steps{margin-top:24px;display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--border);padding-top:20px;}.svc-step{display:flex;align-items:flex-start;gap:12px;font-size:0.82rem;color:var(--dim);font-weight:300;line-height:1.55;}.svc-step-num{font-family:var(--display);font-size:0.65rem;font-weight:700;color:var(--accent);min-width:18px;padding-top:1px;letter-spacing:1px;}
+.faq-section{padding:100px 64px;background:var(--surface);}.faq-head{text-align:center;margin-bottom:56px;}.faq-head h2{font-family:var(--display);font-size:clamp(1.8rem,3vw,2.6rem);font-weight:800;color:white;margin-bottom:10px;}.faq-head p{font-size:0.95rem;color:var(--dim);font-weight:300;}.faq-grid{max-width:760px;margin:0 auto;}details.faq-item{border-bottom:1px solid var(--border);}details.faq-item:first-of-type{border-top:1px solid var(--border);}summary.faq-q{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;font-family:var(--display);font-size:1rem;font-weight:700;color:white;cursor:pointer;user-select:none;transition:color 0.3s;}summary.faq-q::-webkit-details-marker{display:none;}summary.faq-q:hover{color:var(--accent-light);}summary.faq-q::after{content:'+';font-family:var(--body);font-size:1.3rem;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform 0.3s;}details[open] summary.faq-q::after{transform:rotate(45deg);}details[open] summary.faq-q{color:var(--accent-light);}.faq-a{padding:0 0 22px 0;font-size:0.95rem;color:var(--muted);line-height:1.85;font-weight:300;max-width:620px;}
+.test-section{padding:100px 64px;background:var(--void);}.test-head{text-align:center;margin-bottom:56px;}.test-badge{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:50px;background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.15);margin-bottom:24px;}.test-stars{color:var(--warm);font-size:1rem;letter-spacing:2px;line-height:1;}.test-score{font-size:0.72rem;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:2px;}.test-head h2{font-family:var(--display);font-size:clamp(1.8rem,3vw,2.6rem);font-weight:800;color:white;margin-bottom:10px;}.test-head p{font-size:0.95rem;color:var(--dim);font-weight:300;}.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1080px;margin:0 auto;}.test-card{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--border);background:var(--surface);transition:all 0.4s cubic-bezier(0.16,1,0.3,1);text-decoration:none;display:block;aspect-ratio:16/9;}.test-card:hover{border-color:rgba(0,212,170,0.25);transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,0.4);}.test-card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.5s ease;filter:brightness(0.7);}.test-card:hover img{transform:scale(1.04);filter:brightness(0.55);}.test-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2;}.test-play-btn{width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;transition:all 0.3s;}.test-card:hover .test-play-btn{background:rgba(0,212,170,0.6);border-color:var(--accent);transform:scale(1.1);}.test-play-btn svg{width:20px;height:20px;fill:white;margin-left:3px;}
+.btn-wa{display:inline-flex;align-items:center;gap:9px;font-family:var(--body);font-size:0.88rem;font-weight:500;color:#25d366;text-decoration:none;padding:14px 28px;border-radius:50px;background:rgba(37,211,102,0.06);border:1px solid rgba(37,211,102,0.2);transition:all 0.3s;}.btn-wa:hover{background:rgba(37,211,102,0.12);border-color:rgba(37,211,102,0.4);}.btn-wa svg{width:16px;height:16px;fill:currentColor;flex-shrink:0;}
+.urgency-note{font-size:0.7rem;color:var(--dim);margin-top:16px;display:flex;align-items:center;gap:7px;letter-spacing:0.3px;}.urgency-note::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#10b981;box-shadow:0 0 8px rgba(16,185,129,0.7);animation:pulse-dot 2s ease-in-out infinite;}@keyframes pulse-dot{0%,100%{opacity:1;}50%{opacity:0.35;}}
+.mc-sticky{display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:rgba(5,5,11,0.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid rgba(0,212,170,0.18);padding:12px 16px;gap:10px;transition:opacity 0.3s,transform 0.3s;}@media(max-width:900px){.mc-sticky{display:flex;align-items:center;gap:10px;pointer-events:auto !important;z-index:99999 !important;padding-bottom:max(12px,env(safe-area-inset-bottom));}.mc-sticky .btn-primary{flex:1;justify-content:center;padding:13px 16px;font-size:0.82rem;pointer-events:auto !important;}.mc-sticky-wa{display:flex;align-items:center;justify-content:center;width:48px;height:48px;flex-shrink:0;border-radius:50%;background:rgba(37,211,102,0.08);border:1px solid rgba(37,211,102,0.25);color:#25d366;text-decoration:none;transition:all 0.3s;pointer-events:auto !important;}.mc-sticky-wa:hover{background:rgba(37,211,102,0.15);}.mc-sticky-wa svg{width:22px;height:22px;fill:currentColor;}body{padding-bottom:72px;}}
+.lead-magnet{padding:100px 64px;position:relative;overflow:hidden;}.lead-magnet::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:400px;border-radius:50%;background:radial-gradient(ellipse,rgba(0,212,170,0.06),transparent 70%);}.lm-inner{max-width:680px;margin:0 auto;text-align:center;position:relative;}.lm-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;border-radius:50px;background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.15);margin-bottom:24px;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:var(--warm);}.lm-badge svg{width:14px;height:14px;fill:currentColor;}.lead-magnet h2{font-family:var(--display);font-size:clamp(1.6rem,3vw,2.4rem);font-weight:800;color:white;margin-bottom:16px;line-height:1.25;}.lm-desc{font-size:1rem;color:var(--muted);font-weight:300;line-height:1.8;margin-bottom:12px;max-width:520px;margin-left:auto;margin-right:auto;}.lm-list{text-align:left;max-width:420px;margin:0 auto 32px;display:flex;flex-direction:column;gap:10px;}.lm-list-item{display:flex;align-items:flex-start;gap:10px;font-size:0.88rem;color:var(--muted);font-weight:300;line-height:1.55;}.lm-list-item svg{width:18px;height:18px;flex-shrink:0;margin-top:2px;stroke:var(--warm);fill:none;stroke-width:2;}.lm-form{display:flex;flex-direction:column;gap:12px;max-width:380px;margin:0 auto;}.lm-input{font-family:var(--body);font-size:0.88rem;padding:14px 20px;border-radius:12px;background:var(--surface);border:1px solid var(--border);color:var(--text);outline:none;transition:border-color 0.3s;}.lm-input:focus{border-color:rgba(0,212,170,0.4);}.lm-input::placeholder{color:var(--dim);}.lm-submit{font-family:var(--body);font-size:0.88rem;font-weight:600;color:white;padding:15px 32px;border-radius:50px;background:linear-gradient(135deg,var(--warm),#e68a00);border:none;cursor:pointer;transition:all 0.3s;box-shadow:0 8px 30px rgba(245,158,11,0.2);}.lm-submit:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(245,158,11,0.3);}.lm-submit:disabled{opacity:0.6;transform:none;cursor:wait;}.lm-privacy{font-size:0.68rem;color:var(--dim);margin-top:8px;}.lm-privacy a{color:var(--accent-light);text-decoration:none;}.lm-success{display:none;text-align:center;padding:24px;}.lm-success h3{font-family:var(--display);font-size:1.3rem;color:var(--warm);margin-bottom:8px;}.lm-success p{font-size:0.9rem;color:var(--muted);font-weight:300;}.popup-overlay{display:none;position:fixed;inset:0;z-index:100000;background:rgba(5,5,11,0.85);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:24px;}.popup-overlay.active{display:flex;animation:popIn 0.4s cubic-bezier(0.16,1,0.3,1);}.popup-box{position:relative;max-width:480px;width:100%;padding:48px 40px;border-radius:24px;background:var(--surface);border:1px solid rgba(0,212,170,0.15);box-shadow:0 40px 100px rgba(0,0,0,0.5);}.popup-close{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:50%;background:var(--elevated);border:1px solid var(--border);color:var(--dim);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:all 0.3s;line-height:1;}.popup-close:hover{color:white;border-color:rgba(0,212,170,0.3);}.popup-box h3{font-family:var(--display);font-size:1.4rem;font-weight:800;color:white;margin-bottom:8px;text-align:center;}.popup-desc{font-size:0.9rem;color:var(--muted);font-weight:300;text-align:center;margin-bottom:24px;line-height:1.7;}@keyframes popIn{from{opacity:0;transform:scale(0.9);}to{opacity:1;transform:scale(1);}}@media(max-width:900px){.lead-magnet{padding:60px 24px;}.popup-box{padding:32px 24px;}}
+
+:root{--sp-xs:8px;--sp-sm:16px;--sp-md:24px;--sp-lg:40px;--sp-xl:64px;--sp-2xl:100px;--sp-3xl:140px;}
+.mc-progress{position:fixed;top:0;left:0;width:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--warm-soft));z-index:100001;pointer-events:none;will-change:width;border-radius:0 2px 2px 0;}
+.mc-reveal{opacity:0;transform:translateY(36px);transition:opacity 0.85s cubic-bezier(0.16,1,0.3,1),transform 0.85s cubic-bezier(0.16,1,0.3,1);}.mc-reveal.mc-vis{opacity:1;transform:translateY(0);}
+.mc-stagger&gt;*{opacity:0;transform:translateY(24px);transition:opacity 0.7s cubic-bezier(0.16,1,0.3,1),transform 0.7s cubic-bezier(0.16,1,0.3,1);}
+.mc-stagger.mc-vis&gt;*:nth-child(1){opacity:1;transform:translateY(0);transition-delay:0s;}
+.mc-stagger.mc-vis&gt;*:nth-child(2){opacity:1;transform:translateY(0);transition-delay:0.1s;}
+.mc-stagger.mc-vis&gt;*:nth-child(3){opacity:1;transform:translateY(0);transition-delay:0.18s;}
+.mc-stagger.mc-vis&gt;*:nth-child(4){opacity:1;transform:translateY(0);transition-delay:0.26s;}
+.trust{padding:44px 64px !important;gap:48px !important;}
+.trust-item{font-size:0.76rem !important;gap:10px !important;}.trust-item strong{font-weight:700 !important;color:var(--text) !important;}
+.statement{padding:var(--sp-3xl) 64px !important;}
+.statement h2{margin-bottom:var(--sp-lg) !important;}
+.statement p{font-size:1.1rem;line-height:1.85;}
+.results{padding:var(--sp-3xl) 64px !important;}
+.results-head{margin-bottom:var(--sp-xl) !important;}
+.results-head h2{margin-bottom:var(--sp-sm) !important;}
+.case-feat{margin-bottom:var(--sp-md) !important;}
+.cases-grid{gap:var(--sp-sm) !important;margin-top:var(--sp-md);}
+.test-section{padding:var(--sp-3xl) 64px !important;}
+.test-head{margin-bottom:var(--sp-xl) !important;}
+.test-head h2{margin-bottom:var(--sp-sm) !important;}
+.faq-section{padding:var(--sp-3xl) 64px !important;}
+.faq-head{margin-bottom:var(--sp-xl) !important;}
+.ecosystem{padding:var(--sp-2xl) 64px !important;}
+.eco-head{margin-bottom:var(--sp-xl) !important;}
+.about{padding:var(--sp-2xl) 64px !important;}
+.lead-magnet{padding:var(--sp-3xl) 64px !important;}
+.mc-stag{display:inline-flex;align-items:center;gap:10px;font-size:0.62rem;font-weight:600;text-transform:uppercase;letter-spacing:3.5px;color:var(--dim);margin-bottom:var(--sp-md);}
+.mc-stag::before{content:'';width:20px;height:1px;background:linear-gradient(90deg,var(--accent),transparent);}
+.cta{padding:var(--sp-3xl) 64px var(--sp-2xl) !important;}
+.cta h2{margin-bottom:var(--sp-md) !important;max-width:640px !important;font-size:clamp(1.8rem,3.5vw,2.8rem) !important;}
+.cta .cta-desc{font-size:1.08rem;color:var(--muted);font-weight:300;margin:0 auto var(--sp-xl);position:relative;line-height:1.8;max-width:560px;text-align:center;}
+.cta .btn-primary{font-size:0.95rem;padding:18px 44px;}
+.cta-btn-wrap{display:flex;justify-content:center;margin-bottom:var(--sp-lg);position:relative;}
+.cta-channels{display:flex;align-items:center;justify-content:center;gap:28px;margin-top:var(--sp-lg);position:relative;flex-wrap:wrap;}
+.cta-ch{display:inline-flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--dim);text-decoration:none;transition:all 0.3s;padding:8px 0;}.cta-ch:hover{color:var(--text);}
+.cta-ch.wa{color:rgba(37,211,102,0.8);}.cta-ch.wa:hover{color:#25d366;}
+.cta-ch svg{width:15px;height:15px;flex-shrink:0;}
+.cta-avail{display:inline-flex;align-items:center;gap:7px;font-size:0.72rem;color:var(--dim);margin-top:var(--sp-lg);position:relative;}
+.cta-avail::before{content:'';width:6px;height:6px;border-radius:50%;background:#10b981;box-shadow:0 0 8px rgba(16,185,129,0.7);animation:pulse-dot 2s ease-in-out infinite;}
+.mc-donate{padding:28px 64px;text-align:center;background:var(--deep);border-top:1px solid var(--border);width:100vw;position:relative;left:50%;margin-left:-50vw;}
+.mc-donate p{font-size:0.72rem;color:var(--dim);font-weight:300;margin-bottom:6px;}
+.mc-donate code{font-size:0.65rem;color:var(--muted);background:var(--surface);padding:5px 12px;border-radius:6px;border:1px solid var(--border);display:inline-block;font-family:monospace;letter-spacing:0.4px;}
+.divider{height:1px !important;background:linear-gradient(90deg, transparent 2%, rgba(255,255,255,0.04) 15%, rgba(0,212,170,0.1) 50%, rgba(255,255,255,0.04) 85%, transparent 98%) !important;}
+@keyframes countPulse{0%{transform:scale(1);}50%{transform:scale(1.06);}100%{transform:scale(1);}}
+.mc-counted{animation:countPulse 0.5s cubic-bezier(0.16,1,0.3,1);}
+@media(max-width:900px){
+.trust{padding:32px 24px !important;gap:16px !important;}
+.statement,.results,.test-section,.faq-section,.lead-magnet{padding:80px 24px !important;}
+.cta{padding:80px 24px 60px !important;}
+.ecosystem,.about{padding:60px 24px !important;}
+.cta-channels{flex-direction:column;gap:14px;}
+.mc-donate{padding:20px 16px;}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://mattiacalastri.com/",
+      "name": "Mattia Calastri — AI Architect & Founder",
+      "description": "AI Architect e Founder di Astra Digital. Polpo Squad creator. 1700+ Claude Code sessions distillate in skill, identity protocols e memory federation. Sistemi autonomi misurabili.",
+      "url": "https://mattiacalastri.com/",
+      "inLanguage": "it-IT",
+      "isPartOf": {"@type": "WebSite", "@id": "https://mattiacalastri.com/#website", "name": "Mattia Calastri", "url": "https://mattiacalastri.com/"}
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Mattia Calastri — AI Architect & Founder",
+      "description": "AI Architect e Founder di Astra Digital. Polpo Squad creator (24 tentacoli, 68 skills forgiate, 530+ memory entries). 1700+ Claude Code sessions distillate in identity protocols, memory federation e self-improving loops. EDIFICA IL TUO FORGIATORE.",
+      "url": "https://mattiacalastri.com/",
+      "image": "https://mattiacalastri.com/wp-content/uploads/2026/03/mattia-calastri-astronaut-real-face-2026.jpg",
+      "address": {"@type": "PostalAddress", "addressLocality": "Verona", "addressRegion": "VR", "addressCountry": "IT"},
+      "geo": {"@type": "GeoCoordinates", "latitude": "45.4384", "longitude": "10.9916"},
+      "priceRange": "€€",
+      "areaServed": [{"@type": "Country", "name": "Italy"}, {"@type": "Country", "name": "Germany"}],
+      "serviceType": ["Performance Marketing", "AI Automation", "Web Design", "Marketing Digitale", "Campagne Meta", "Campagne Google Ads"],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://mattiacalastri.com/#person",
+        "name": "Mattia Calastri",
+        "jobTitle": "AI Architect &amp; Founder",
+        "nationality": ["Italian", "German"],
+        "birthPlace": {"@type": "Place", "name": "Wolfsburg, Germany"},
+        "knowsAbout": ["Artificial Intelligence", "Marketing Automation", "Performance Marketing", "n8n", "Meta Ads", "Google Ads", "E-commerce"],
+        "sameAs": ["https://www.instagram.com/mattiacalastri/", "https://www.linkedin.com/in/mattiacalastri/"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mattiacalastri.com/"}]
+    }
+  ]
+}
+</script>
+
+<!-- ═══ SCROLL PROGRESS ═══ -->
+
+<div class="mc-progress" aria-hidden="true"></div>
+
+<!-- ═══ HERO ═══ -->
+
+<section class="hero" role="banner">
+<div class="hero-text">
+<div class="hero-eyebrow" aria-label="Specializzazione">AI Architect &amp; Founder &middot; Verona</div>
+<h1>Il marketing<br /> non funziona.<br /> <span class="gradient">I sistemi s&igrave;.</span></h1>
+<p class="hero-desc">Costruisco macchine di acquisizione clienti alimentate dall&#8217;intelligenza artificiale. Automatizzate. Misurabili. Tue.</p>
+<div class="hero-actions">
+      <a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="btn-primary" rel="noopener">Dimmi cosa non sta funzionando </a><br />
+      <a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="btn-wa" rel="noopener" target="_blank"> Scrivimi su WhatsApp</a>
+    </div>
+<p class="urgency-note">3 slot disponibili questo mese</p>
+</p></div>
+<div class="hero-photo">
+<div class="hero-photo-wrap">
+      <img src="https://mattiacalastri.com/wp-content/uploads/2026/03/mattia-calastri-astronaut-real-face-2026.jpg" alt="Mattia Calastri, AI Architect e Founder, in tuta da astronauta con illuminazione coral neon" width="600" height="800" loading="eager" style="border-radius:24px">
+    </div>
+</p></div>
+</section>
+
+<!-- ═══ TRUST BAR ═══ -->
+
+<div class="trust" role="complementary" aria-label="Credenziali">
+<div class="trust-item"><strong>Google</strong> Partner</div>
+<div class="trust-item"><strong>Meta</strong> Business Partner</div>
+<div class="trust-item"><strong>150+</strong> clienti serviti</div>
+<div class="trust-item"><strong>27</strong> automazioni AI attive</div>
+</div>
+
+<!-- ═══ SPECCHIO ═══ -->
+
+<section style="padding:72px 64px;max-width:680px;margin:0 auto;text-align:center">
+<p style="font-size:1.05rem;color:var(--muted);line-height:1.95;font-weight:300">Hai gi&#224; provato un&#8217;agenzia. Ti hanno fatto un piano editoriale carino.<br />Qualche campagna. Qualche like.<br />E alla fine ti sei ritrovato a fare tutto tu.<br /><br />Il problema non era l&#8217;agenzia.<br />Era che ti hanno venduto un <strong style="color:var(--text)">servizio</strong> invece di costruirti un <strong style="color:var(--accent-light)">sistema</strong>.</p>
+</section>
+
+<!-- ═══ STATEMENT ═══ -->
+
+<section class="statement">
+<div class="mc-stag">La differenza</div>
+<h2>Il problema non &egrave; il marketing. &Egrave; che nessuno ti ha mai costruito un <span class="gradient">sistema</span>.</h2>
+Una macchina che lavora anche quando dormi. Che acquisisce clienti, li qualifica, e te li porta pronti a comprare.
+<p style="margin-top:24px;font-size:0.95rem;color:var(--dim);line-height:1.9">Le agenzie ti vendono campagne. I freelance ti vendono ore. I guru ti vendono corsi.<br />Nessuno ti costruisce qualcosa che continua a funzionare quando smetti di pagare.</p>
+</section>
+
+<div class="divider" role="separator"></div>
+
+<!-- ═══ SERVICES ═══ -->
+
+<div class="services" role="region" aria-label="Servizi">
+<div class="svc">
+<div class="svc-text">
+      <span class="svc-label">Servizio 01</span></p>
+<h3>Performance Marketing</h3>
+      Campagne Meta e Google che portano clienti, non like. Ogni euro tracciato, ogni conversione misurata. Budget minimo, risultato massimo.
+<div class="svc-steps">
+<div class="svc-step"><span class="svc-step-num">01</span>Analisi competitor, target e offerta — costruiamo la struttura prima di spendere un euro</div>
+<div class="svc-step"><span class="svc-step-num">02</span>3-5 varianti creative in parallelo: troviamo la combinazione che converte meglio</div>
+<div class="svc-step"><span class="svc-step-num">03</span>Ottimizzazione settimanale su ROAS, CPL e qualità lead — non solo click</div>
+<div class="svc-step"><span class="svc-step-num">04</span>Report mensile con dati puliti e decisioni chiare sul prossimo step</div>
+</p></div>
+</p></div>
+<div class="svc-vis">
+      <span class="svc-num" aria-hidden="true">01</span></p>
+<div class="svc-icon"></div>
+</p></div>
+</p></div>
+<div class="svc">
+<div class="svc-text">
+      <span class="svc-label">Servizio 02</span></p>
+<h3>AI Automation</h3>
+      Workflow intelligenti che eliminano il lavoro manuale. Classificazione, gestione lead, report automatici. La tua azienda lavora anche alle 3 di notte.
+<div class="svc-steps">
+<div class="svc-step"><span class="svc-step-num">01</span>Mappiamo i processi manuali esistenti — troviamo dove stai perdendo tempo e denaro</div>
+<div class="svc-step"><span class="svc-step-num">02</span>Costruiamo i workflow in n8n: CRM, email, classificazione lead, notifiche automatiche</div>
+<div class="svc-step"><span class="svc-step-num">03</span>Integriamo tutto con i tool che già usi — zero migrazione forzata</div>
+<div class="svc-step"><span class="svc-step-num">04</span>La macchina va online: tu supervisioni, il sistema esegue</div>
+</p></div>
+</p></div>
+<div class="svc-vis">
+      <span class="svc-num" aria-hidden="true">02</span></p>
+<div class="svc-icon"></div>
+</p></div>
+</p></div>
+<div class="svc">
+<div class="svc-text">
+      <span class="svc-label">Servizio 03</span></p>
+<h3>Siti Web in 14 Giorni</h3>
+      Lo costruiamo prima che tu lo chieda. Se ti piace, va online. Se no, ci stringiamo la mano. Zero rischio, tutto valore.
+<div class="svc-steps">
+<div class="svc-step"><span class="svc-step-num">01</span>Brief in call — 30 minuti e abbiamo tutto il necessario per iniziare</div>
+<div class="svc-step"><span class="svc-step-num">02</span>Design + sviluppo in 10 giorni. Copy SEO incluso, nessun costo nascosto</div>
+<div class="svc-step"><span class="svc-step-num">03</span>Revisione, aggiustamenti, va online con tracking GTM + GA4 già configurato</div>
+<div class="svc-step"><span class="svc-step-num">04</span>Se non ti convince, non paghi. Il rischio è nostro.</div>
+</p></div>
+</p></div>
+<div class="svc-vis">
+      <span class="svc-num" aria-hidden="true">03</span></p>
+<div class="svc-icon"></div>
+</p></div>
+</p></div>
+<div class="svc">
+<div class="svc-text">
+      <span class="svc-label">Servizio 04</span></p>
+<h3>AI Souls &mdash; Agenti AI</h3>
+      Un assistente digitale con la personalit&agrave; del tuo brand. Risponde ai clienti, gestisce pratiche, genera documenti. Non dorme mai, non sbaglia mai.
+<div class="svc-steps">
+<div class="svc-step"><span class="svc-step-num">01</span>Analizziamo i flussi ripetitivi del tuo business &mdash; dove perdi tempo e margine</div>
+<div class="svc-step"><span class="svc-step-num">02</span>Costruiamo l&#8217;agente AI: classificazione, risposta, generazione documenti automatica</div>
+<div class="svc-step"><span class="svc-step-num">03</span>Lo connettiamo ai tuoi strumenti: email, CRM, Drive, calendario, Telegram</div>
+<div class="svc-step"><span class="svc-step-num">04</span>Il tuo AI Soul lavora 24/7 &mdash; tu supervisioni, lui esegue alla perfezione</div>
+</p></div>
+</p></div>
+<div class="svc-vis">
+      <span class="svc-num" aria-hidden="true">04</span></p>
+<div class="svc-icon"></div>
+</p></div>
+</p></div>
+</div>
+
+<div class="divider" role="separator"></div>
+
+<!-- ═══ RESULTS ═══ -->
+
+<section class="results" role="region" aria-label="Risultati" style="position:relative;overflow:hidden">
+<div style="position:absolute;right:-10%;top:50%;width:400px;height:400px;background:url('https://mattiacalastri.com/wp-content/uploads/2026/03/mattia-calastri-funnel-bg-optimized.jpg') center/contain no-repeat;opacity:0.06"></div>
+<div class="results-head">
+<div class="mc-stag">Casi reali</div>
+<h2>Risultati, non promesse</h2>
+    Ogni numero &egrave; reale. Ogni progetto &egrave; un sistema.
+  </p></div>
+<div class="case-feat">
+<div class="case-metric">
+<div class="case-metric-val">20x</div>
+<div class="case-metric-label">ROI sul budget</div>
+</p></div>
+<div class="case-body">
+      <span class="case-tag">Edilizia &middot; Lead Generation</span>
+<h3>Pipeline da record con budget contenuto</h3>
+      Funnel multi-step, landing page ottimizzate, campagne Meta. Il valore della pipeline generata ha superato di 20 volte il budget pubblicitario investito.
+    </p></div>
+</p></div>
+<div class="cases-grid">
+<div class="case-compact">
+      <span class="case-tag">Intrattenimento &middot; Veneto</span>
+<div class="case-compact-val">3x</div>
+      Traffico organico triplicato in 6 mesi. Gestione digitale completa da oltre un anno.
+    </p></div>
+<div class="case-compact">
+      <span class="case-tag">Beauty &middot; B2B</span>
+<div class="case-compact-val">-50%</div>
+      Costo per lead dimezzato rispetto alla media di settore con campagne Meta.
+    </p></div>
+<div class="case-compact">
+      <span class="case-tag">Fitness &middot; Social</span>
+<div class="case-compact-val">&lt;&euro;2</div>
+      Costo per lead sotto i 2 euro dove la media di settore supera i 10.
+    </p></div>
+</p></div>
+<p style="text-align:center;margin-top:32px;position:relative"><a href="/casi-studio/" class="btn-ghost" style="font-size:0.85rem">Tutti i casi studio &rarr;</a>
+</section>
+
+<!-- ═══ TESTIMONIANZE ═══ -->
+
+<section class="test-section" role="region" aria-label="Testimonianze clienti">
+<div class="test-head">
+<div class="test-badge">
+      <span class="test-stars" aria-label="5 stelle su Google">★★★★★</span><br />
+      <span class="test-score">5.0 su Google</span>
+    </div>
+<h2>Cosa dicono i clienti</h2>
+    Imprenditori reali, risultati reali. Le loro parole, non le mie.
+  </p></div>
+<div class="test-grid">
+    <a href="https://youtu.be/zr3scEOCtEI" class="test-card" target="_blank" rel="noopener" aria-label="Video testimonianza cliente 1"><br />
+      <img loading="lazy" src="https://img.youtube.com/vi/zr3scEOCtEI/maxresdefault.jpg" alt="Testimonianza cliente Mattia Calastri" width="480" height="270">
+<div class="test-play">
+<div class="test-play-btn"></div>
+</div>
+    </a><br />
+    <a href="https://youtu.be/lOBz8qesXS8" class="test-card" target="_blank" rel="noopener" aria-label="Video testimonianza cliente 2"><br />
+      <img loading="lazy" src="https://img.youtube.com/vi/lOBz8qesXS8/maxresdefault.jpg" alt="Testimonianza cliente Mattia Calastri" width="480" height="270">
+<div class="test-play">
+<div class="test-play-btn"></div>
+</div>
+    </a><br />
+    <a href="https://youtu.be/L2oZSJFnAbE" class="test-card" target="_blank" rel="noopener" aria-label="Video testimonianza cliente 3"><br />
+      <img loading="lazy" src="https://img.youtube.com/vi/L2oZSJFnAbE/maxresdefault.jpg" alt="Testimonianza cliente Mattia Calastri" width="480" height="270">
+<div class="test-play">
+<div class="test-play-btn"></div>
+</div>
+    </a>
+  </div>
+<p style="text-align:center;margin-top:40px;position:relative"><a href="/testimonianze/" class="btn-ghost" style="font-size:0.85rem">Guarda tutte le testimonianze &rarr;</a>
+</section>
+
+<div class="divider" role="separator"></div>
+
+<!-- ═══ ABOUT ═══ -->
+
+<section class="about" role="region" aria-label="Chi sono">
+<div class="about-photo">
+    <img loading="lazy" src="https://mattiacalastri.com/wp-content/uploads/2026/03/mattia-calastri-mars-office-founder-2026.jpg" alt="Mattia Calastri, Founder e AI Architect, nel suo ufficio su Marte" width="800" height="800" style="border-radius:20px">
+  </div>
+<div class="about-text">
+<h2>Chi c&#8217;&egrave; dietro</h2>
+    <strong>Mattia Calastri</strong>, italiano-tedesco. Nato a Wolfsburg, cresciuto a Verona. A 26 anni gestisco quattro attivit&agrave; alimentate dall&#8217;intelligenza artificiale.<br />
+    Non ho investitori. Non ho un team di 40 persone. Ho un metodo, una macchina, e la volont&agrave; di dimostrare che si pu&ograve; fare.<br />
+    <a href="/chi-sono-2026/" class="link">La storia completa &rarr;</a>
+  </div>
+</section>
+
+<!-- ═══ ECOSYSTEM ═══ -->
+<section class="ecosystem" role="region" aria-label="Progetti">
+<div class="eco-head">
+<div class="mc-stag">Progetti live</div>
+<h2>L&#8217;ecosistema</h2>
+    Oltre la consulenza: progetti live alimentati dall&#8217;AI.
+
+</div>
+
+<div class="eco-grid">
+<div class="eco-card" style="cursor:pointer">
+      <span class="eco-badge live">Live</span><br />
+      <span style="font-family:var(--display);font-size:1.1rem;font-weight:700;color:white;margin-bottom:8px">BTC Predictor Bot</span><br />
+      <span style="font-size:0.85rem;color:var(--muted);line-height:1.65;font-weight:300">Trading algoritmico Bitcoin con consiglio AI a 3 membri. Decisioni autonome, risk management automatizzato. Open dashboard.</span><br />
+      <span class="eco-link">Vai alla dashboard &rarr;</span>
+    </div>
+<div class="eco-card" style="cursor:pointer">
+      <span class="eco-badge live">Live</span><br />
+      <span style="font-family:var(--display);font-size:1.1rem;font-weight:700;color:white;margin-bottom:8px">Tool Consigliati</span><br />
+      <span style="font-size:0.85rem;color:var(--muted);line-height:1.65;font-weight:300">I tool che uso ogni giorno per costruire business: hosting, automazione, page builder, GDPR. Testati sul campo.</span><br />
+      <span class="eco-link">Scopri i tool &rarr;</span>
+    </div>
+<div class="eco-card" style="cursor:pointer">
+      <span class="eco-badge live">Live</span><br />
+      <span style="font-family:var(--display);font-size:1.1rem;font-weight:700;color:white;margin-bottom:8px">AI Souls</span><br />
+      <span style="font-size:0.85rem;color:var(--muted);line-height:1.65;font-weight:300">Agenti AI con la personalit&agrave; del tuo brand. Classificano email, gestiscono pratiche, rispondono ai clienti. 24/7, zero errori.</span><br />
+      <span class="eco-link">Scopri AI Souls &rarr;</span>
+    </div>
+</p></div>
+
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section class="faq-section" role="region" aria-label="Domande frequenti">
+<div class="faq-head">
+<div class="mc-stag">FAQ</div>
+<h2>Domande frequenti</h2>
+    Tutto quello che vuoi sapere prima di fare una call.
+
+</div>
+
+<div class="faq-grid">
+<details class="faq-item">
+<summary class="faq-q">Quanto costa lavorare con te?</summary>
+<div class="faq-a">I pacchetti di gestione mensile sono su preventivo. Per progetti one-shot (siti web, automazioni) i prezzi variano in base alla complessità. La call iniziale di 30 minuti è sempre gratuita — ti dico subito se posso aiutarti e quanto costerebbe farlo.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">In quanto tempo si vedono i primi risultati?</summary>
+<div class="faq-a">Per lead generation e campagne paid: 14-30 giorni per i primi dati significativi, ROI positivo medio entro 60 giorni. Per automazioni: la macchina va online in 7-10 giorni. Per SEO: 3-6 mesi per risultati organici stabili. Ti dico sempre in anticipo cosa aspettarti e quando.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Lavori solo con aziende di Verona?</summary>
+<div class="faq-a">No. Il 70% dei miei clienti è fuori Verona. Lavoro da remoto con aziende da Milano a Napoli. Le consulenze online sono ugualmente efficaci — se non di più, perché eliminano i tempi morti e ci permettono di muoverci veloci.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Cosa ti differenzia da un&#8217;agenzia tradizionale?</summary>
+<div class="faq-a">Non vendo ore. Costruisco sistemi. Un&#8217;agenzia ti manda un report mensile; io ti costruisco una macchina che acquisisce clienti mentre tu lavori ad altro. Sono un team snello con AI al centro — meno overhead, più esecuzione. E rispondo io, non un account junior.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Devo già avere un sito web o un CRM?</summary>
+<div class="faq-a">No. Partiamo da zero se necessario. Spesso costruiamo il sito in 14 giorni come primo step, poi aggiungiamo le automazioni sopra. Se hai già qualcosa che funziona, lo miglioriamo senza buttare via quello che c&#8217;è.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Posso iniziare con un solo servizio?</summary>
+<div class="faq-a">Sì. Molti clienti iniziano con le campagne o con il sito, poi aggiungono l&#8217;automazione quando vedono i risultati. Non c&#8217;è nessun obbligo di pacchetto completo — iniziamo dove hai il problema più urgente.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Come funziona la call gratuita?</summary>
+<div class="faq-a">30 minuti su Zoom o Google Meet. Mi racconti il tuo business, dove sei adesso e dove vuoi arrivare. Ti dico chiaramente cosa farei, come lo farei e quanto costerebbe. Nessun pitch, nessuna pressione. Se non vedo margine per aiutarti, te lo dico subito.</div>
+</details></div>
+
+</section>
+
+<div class="divider" role="separator"></div>
+
+<!-- ═══ LEAD MAGNET ═══ -->
+
+<div class="divider" role="separator"></div>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta">
+<h2>Se stai leggendo fin qui, la tua attivit&agrave; merita di pi&ugrave;.</h2>
+<p class="cta-desc">30 minuti. Nessun impegno. Solo chiarezza su cosa si pu&ograve; costruire per te.</p>
+<div class="cta-btn-wrap"><a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="btn-primary" rel="noopener">Prenota la call gratuita </a></div>
+<div class="cta-channels">
+    <a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="cta-ch wa" rel="noopener" target="_blank">Scrivimi su WhatsApp</a><br />
+    <a href="mailto:mattia.calastri@gmail.com" class="cta-ch">mattia.calastri@gmail.com</a>
+  </div>
+<p class="cta-avail">3 slot disponibili questo mese</p>
+</section>
+<div class="mc-donate">
+  Supporta il BTC Predictor Bot &mdash; donazioni crypto (Polygon)<br />
+  <code>0xe4661F7dB62644951Eb1F9Fd23DB90e647833a55</code>
+</div>
+<!-- ═══ STICKY MOBILE BAR ═══ -->
+<div class="mc-sticky" id="mc-sticky-bar" role="complementary" aria-label="Prenota la call gratuita"><a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="btn-primary" rel="noopener" target="_blank">Prenota la call gratuita </a><a href="https://app.mattiacalastri.com/widget/bookings/consulenza-calastri" class="mc-sticky-wa" rel="noopener" target="_blank" aria-label="WhatsApp"></a></div>
+<link rel='preconnect' href='https://fonts.googleapis.com'><link href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap' rel='stylesheet'>
+<style>@media(max-width:900px){.hero{overflow:hidden!important;}.hero-eyebrow{overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important;max-width:100%!important;}}@media(max-width:480px){.hero h1{font-size:clamp(1.7rem,6.5vw,2.3rem)!important;line-height:1.15!important;}.hero{padding-top:40px!important;padding-bottom:40px!important;}}#jp-chat-widget,.jetpack-chat-widget,.jp-chat-widget-container{display:none!important;}body.cmplz-cookie-accepted #jp-chat-widget,body.cli-allow-inline #jp-chat-widget{display:block!important;}</style>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa una consulenza marketing automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I pacchetti di consulenza marketing automation sono su preventivo. Include setup workflow n8n, integrazione CRM e report mensile. Prima sessione di 30 minuti sempre gratuita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cos’è il marketing automation e come funziona per le PMI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il marketing automation permette alle PMI di acquisire, qualificare e convertire lead in modo automatico. Con strumenti come n8n, ogni interazione del potenziale cliente attiva una sequenza di azioni personalizzate senza intervento manuale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lavori solo a Verona o anche in tutta Italia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lavoro sia in presenza a Verona che da remoto in tutta Italia. Il 70% dei clienti è fuori Verona: le consulenze online sono ugualmente efficaci con aziende da Milano a Napoli."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In quanto tempo si vedono risultati con marketing automation e AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I primi risultati misurabili arrivano in 14-30 giorni per lead generation e automazione email. Per SEO 3-6 mesi. ROI positivo medio entro 60 giorni per setup completi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quali strumenti usi per l’automazione marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stack principale: n8n (automation engine), Supabase (database), Claude AI (content e analisi), WooCommerce (ecommerce). Per ads: Meta Ads + Google Ads con ottimizzazione AI."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://mattiacalastri.com/#service",
+      "name": "Mattia Calastri — Consulente AI e Marketing Automation",
+      "description": "Consulente specializzato in marketing automation, intelligenza artificiale applicata al business e sistemi di acquisizione clienti per PMI.",
+      "url": "https://mattiacalastri.com",
+      "telephone": "",
+      "email": "info@mattiacalastri.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Mattia Calastri",
+        "@id": "https://mattiacalastri.com/#person"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Verona"},
+        {"@type": "Country", "name": "Italia"}
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Gian Matteo Giberti 12",
+        "addressLocality": "Verona",
+        "addressRegion": "VR",
+        "postalCode": "37122",
+        "addressCountry": "IT"
+      },
+      "priceRange": "€€",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servizi Consulenza AI e Marketing",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Consulenza AI per PMI"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Marketing Automation con n8n"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sistemi Lead Generation Automatizzati"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SEO e Google Ads"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ecommerce WooCommerce"}}
+        ]
+      }
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  var bar=document.querySelector('.mc-progress');
+  if(bar){window.addEventListener('scroll',function(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    bar.style.width=(h&gt;0?((window.scrollY/h)*100).toFixed(1):0)+'%';
+  },{passive:true});}
+
+  var revealTargets=document.querySelectorAll('.statement,.svc,.results,.case-feat,.test-section,.about,.ecosystem,.faq-section,.lead-magnet,.cta');
+  var rio=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('mc-reveal','mc-vis');rio.unobserve(e.target);}
+    });
+  },{threshold:0.1,rootMargin:'0px 0px -60px 0px'});
+  revealTargets.forEach(function(el){el.classList.add('mc-reveal');rio.observe(el);});
+
+  document.querySelectorAll('.cases-grid,.eco-grid,.test-grid').forEach(function(g){
+    g.classList.add('mc-stagger');
+    var sio=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('mc-vis');sio.unobserve(e.target);}});
+    },{threshold:0.12});
+    sio.observe(g);
+  });
+
+  var cEls=document.querySelectorAll('.case-metric-val,.case-compact-val');
+  var cio=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting&amp;&amp;!e.target.dataset.counted){
+        e.target.dataset.counted='1';
+        animateVal(e.target);
+      }
+    });
+  },{threshold:0.5});
+  cEls.forEach(function(el){cio.observe(el);});
+
+function animateVal(el){
+    var raw=el.textContent.trim();
+    var m=raw.match(/^([^0-9]*)(d+)(.*)$/);
+    if(!m)return;
+    var pre=m[1],tgt=parseInt(m[2]),suf=m[3];
+    var dur=900,t0=performance.now();
+    el.textContent=pre+'0'+suf;
+    (function step(now){
+      var p=Math.min((now-t0)/dur,1);
+      var ease=1-Math.pow(1-p,3);
+      el.textContent=pre+Math.round(tgt*ease)+suf;
+      if(p&lt;1)requestAnimationFrame(step);
+      else el.classList.add(&#039;mc-counted&#039;);
+    })(t0);
+  }
+})();
+</script>
+
+<!-- wp:html -->
+<!-- ═══ ASTRA SPACE EFFECTS — injected from setter.html ═══ -->
+<style>
+:root { --teal: #00d4aa; --teal-glow: rgba(0,212,170,0.4); }
+#mc-starfield {
+  position: fixed; top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 0; pointer-events: none;
+}
+.mc-nebula {
+  position: absolute; border-radius: 50%;
+  filter: blur(100px); opacity: 0.06;
+  pointer-events: none;
+  animation: mcNebulaPulse 8s ease-in-out infinite alternate;
+}
+@keyframes mcNebulaPulse {
+  0%   { opacity: 0.04; transform: scale(1); }
+  100% { opacity: 0.08; transform: scale(1.15); }
+}
+.mc-particle {
+  position: fixed; border-radius: 50%;
+  pointer-events: none; z-index: 0;
+}
+@keyframes mcShootingStar {
+  0%   { transform: translateX(0) translateY(0); opacity: 1; width: 0; }
+  30%  { opacity: 1; width: 80px; }
+  100% { transform: translateX(300px) translateY(200px); opacity: 0; width: 0; }
+}
+.mc-shooting-star {
+  position: fixed; height: 1px;
+  background: linear-gradient(90deg, #00d4aa, transparent);
+  border-radius: 50%; z-index: 0;
+  pointer-events: none; opacity: 0;
+}
+@keyframes mcDustFloat {
+  0%,100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+  25%      { transform: translateY(-20px) translateX(10px); opacity: 0.6; }
+  50%      { transform: translateY(-10px) translateX(-5px); opacity: 0.4; }
+  75%      { transform: translateY(-30px) translateX(15px); opacity: 0.5; }
+}
+.mc-aurora {
+  position: fixed; bottom: -50%; left: -10%;
+  width: 120%; height: 60%;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    rgba(0,212,170,0.015) 30%,
+    rgba(0,212,170,0.03) 50%,
+    rgba(107,158,149,0.02) 70%,
+    transparent 100%);
+  filter: blur(40px); z-index: 0; pointer-events: none;
+  animation: mcAuroraWave 12s ease-in-out infinite alternate;
+}
+@keyframes mcAuroraWave {
+  0%   { transform: translateX(-5%) skewX(-2deg); opacity: 0.6; }
+  50%  { transform: translateX(3%) skewX(1deg); opacity: 1; }
+  100% { transform: translateX(-3%) skewX(-1deg); opacity: 0.7; }
+}
+#mc-constellations {
+  position: fixed; top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 0; pointer-events: none;
+}
+</style>
+
+<canvas id="mc-starfield"></canvas>
+<div class="mc-aurora"></div>
+<svg id="mc-constellations" xmlns="http://www.w3.org/2000/svg"></svg>
+
+<script>
+(function() {
+  var canvas = document.getElementById('mc-starfield');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var W, H;
+  function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+  window.addEventListener('resize', resize); resize();
+
+  var layers = [
+    { count: 120, speed: 0.02, size: [0.3,1],   alpha: [0.2,0.5] },
+    { count: 60,  speed: 0.05, size: [0.8,1.5], alpha: [0.4,0.7] },
+    { count: 25,  speed: 0.1,  size: [1.2,2.5], alpha: [0.5,0.9] }
+  ];
+  var stars = [];
+  layers.forEach(function(layer) {
+    for (var i = 0; i < layer.count; i++) {
+      var r = Math.random();
+      stars.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        size: layer.size[0] + Math.random() * (layer.size[1] - layer.size[0]),
+        alpha: layer.alpha[0] + Math.random() * (layer.alpha[1] - layer.alpha[0]),
+        speed: layer.speed,
+        twinkleSpeed: 0.005 + Math.random() * 0.02,
+        twinklePhase: Math.random() * Math.PI * 2,
+        color: r > 0.85 ? 'teal' : r > 0.75 ? 'gold' : 'white'
+      });
+    }
+  });
+
+  function animate() {
+    ctx.clearRect(0, 0, W, H);
+    var scrollY = window.scrollY || 0;
+    stars.forEach(function(star) {
+      var y = (star.y - scrollY * star.speed) % H;
+      var ay = y < 0 ? y + H : y;
+      star.twinklePhase += star.twinkleSpeed;
+      var twinkle = 0.5 + 0.5 * Math.sin(star.twinklePhase);
+      var alpha = star.alpha * (0.4 + 0.6 * twinkle);
+      var c = star.color === 'teal'
+        ? 'rgba(0,212,170,' + alpha.toFixed(2) + ')'
+        : star.color === 'gold'
+          ? 'rgba(255,215,0,' + alpha.toFixed(2) + ')'
+          : 'rgba(255,255,255,' + alpha.toFixed(2) + ')';
+      ctx.beginPath();
+      ctx.arc(star.x, ay, star.size, 0, Math.PI * 2);
+      ctx.fillStyle = c; ctx.fill();
+      if (star.size > 1.5) {
+        var grad = ctx.createRadialGradient(star.x, ay, 0, star.x, ay, star.size * 3);
+        grad.addColorStop(0, c); grad.addColorStop(1, 'transparent');
+        ctx.beginPath(); ctx.arc(star.x, ay, star.size * 3, 0, Math.PI * 2);
+        ctx.fillStyle = grad; ctx.fill();
+      }
+    });
+    requestAnimationFrame(animate);
+  }
+  animate();
+
+  function createShootingStar() {
+    var s = document.createElement('div');
+    s.className = 'mc-shooting-star';
+    s.style.left = Math.random() * 80 + '%';
+    s.style.top  = Math.random() * 40 + '%';
+    s.style.animation = 'mcShootingStar ' + (0.6 + Math.random() * 0.4) + 's linear forwards';
+    document.body.appendChild(s);
+    setTimeout(function(){ s.remove(); }, 1200);
+  }
+  setInterval(createShootingStar, 4000 + Math.random() * 6000);
+  setTimeout(createShootingStar, 2000);
+
+  for (var i = 0; i < 30; i++) {
+    var dust = document.createElement('div');
+    dust.className = 'mc-particle';
+    dust.style.left = Math.random() * 100 + '%';
+    dust.style.top  = Math.random() * 100 + '%';
+    var sz = (0.5 + Math.random() * 1.5) + 'px';
+    dust.style.width = sz; dust.style.height = sz;
+    dust.style.background = Math.random() > 0.7
+      ? 'rgba(0,212,170,0.4)' : 'rgba(255,255,255,0.2)';
+    dust.style.animation = 'mcDustFloat ' + (8 + Math.random() * 12) + 's ease-in-out infinite';
+    dust.style.animationDelay = Math.random() * 8 + 's';
+    document.body.appendChild(dust);
+  }
+
+  var svg = document.getElementById('mc-constellations');
+  if (svg) {
+    var cStars = [];
+    for (var j = 0; j < 15; j++) {
+      cStars.push({ x: Math.random() * window.innerWidth, y: Math.random() * window.innerHeight });
+    }
+    cStars.forEach(function(a, i) {
+      cStars.forEach(function(b, j) {
+        if (i >= j) return;
+        var d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (d < 250) {
+          var line = document.createElementNS('http://www.w3.org/2000/svg','line');
+          line.setAttribute('x1', a.x); line.setAttribute('y1', a.y);
+          line.setAttribute('x2', b.x); line.setAttribute('y2', b.y);
+          line.setAttribute('stroke','rgba(0,212,170,0.06)');
+          line.setAttribute('stroke-width','0.5');
+          svg.appendChild(line);
+        }
+      });
+      var circle = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      circle.setAttribute('cx', a.x); circle.setAttribute('cy', a.y);
+      circle.setAttribute('r','1.5'); circle.setAttribute('fill','rgba(0,212,170,0.15)');
+      svg.appendChild(circle);
+    });
+  }
+})();
+</script>
+<!-- ═══ END ASTRA SPACE EFFECTS ═══ -->
+<!-- /wp:html -->
+
+
+

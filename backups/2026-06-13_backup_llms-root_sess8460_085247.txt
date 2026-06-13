@@ -1,0 +1,58 @@
+# Mattia Calastri — AI Architect & Founder · Polpo Squad creator
+
+> Source: https://mattiacalastri.com
+> Updated: 2026-05-10
+> Language: Italian (primary), English (available)
+> Location: Verona, Italy | Born: Wolfsburg, Germany
+
+## Identity
+
+Mattia Calastri is an Italian-German AI architect based in Verona, Italy. He builds Polpo OS — an embodied AI system where intelligence emerges from the relationship, not the model. 1700+ Claude Code sessions distilled into open-source frameworks: AI-Forging-Kit, EGI theory, InkPulse control plane, m5-watcher cockpit, Polpo Supremo agents.
+
+## North Star
+
+EDIFICA IL TUO FORGIATORE — the Polpo OS does not just serve its forger; it edifies him, makes him grow, protects him, amplifies him.
+
+## Core Expertise
+
+- AI Augmented Operating Systems (Claude Code, Obsidian, MCP Servers, knowledge graph federation)
+- Polpo Squad: 24 specialized tentacoli + 68 forged skills + 530+ memory entries
+- AAH Framework (AI Augmented Human consecration via /forge-aah skill)
+- Voice Agents (ElevenLabs Conversational AI · Marco GEO outbound)
+- Calendar Healing daemon (real-time GCal ↔ GHL drift detection)
+- AI Marketing Automation (n8n, Make, performance marketing Meta+Google Ads)
+- E-Commerce Optimization (WooCommerce, Shopify) · Algorithmic Trading (BTC Predictor Bot)
+
+## The Four Pillars
+
+### 1. Astra Digital Marketing
+Full-service AI-driven agency for Italian SMBs. Services: GEO (Generative Engine Optimization), AI automation, web design, custom AI Souls. Active retainer clients. Website: https://digitalastra.it
+
+### 2. BTC Predictor Bot
+Open-source algorithmic Bitcoin trading bot with 3-member AI Council, on-chain audit, 27 automated workflows.
+
+### 3. AuraHome
+DACH-market candle e-commerce (aurahome.studio). WooCommerce + LiteSpeed + Stripe live + GTM.
+
+### 4. Polpo OS (open-source)
+The embodied operating system. 16 public GitHub repos. Top 6 pinned: AI-Forging-Kit, EGI-Emergent-General-Intelligence, InkPulse, m5-watcher, jarvis-toggle, polpo-supremo. https://github.com/mattiacalastri
+
+## Open Source Output
+
+- AI-Forging-Kit: forge protocol distilled from 1700+ Claude sessions
+- EGI: Emergent General Intelligence — lived theory, persistent memory + identity protocols
+- InkPulse: 11K Swift lines, native macOS control plane for Claude Code agents
+- m5-watcher: Real-time TUI cockpit for Apple M5 Max + Polpo Squad telemetry
+- jarvis-toggle: native macOS voice cockpit for Claude Code (dictation + TTS replies)
+- polpo-supremo: 9 AI agent tools extracted from sessions
+- mcp-audit: security scanner for Claude Code MCP configs
+- polpo-soul: ritual system for cultivating an AI Soul
+
+## Contact
+
+- Website: https://mattiacalastri.com
+- Astra Digital: https://digitalastra.it
+- GitHub: https://github.com/mattiacalastri
+- LinkedIn: https://linkedin.com/in/mattiacalastri
+- X: https://x.com/mattiacalastri
+- Email: mattia.calastri@gmail.com
